@@ -5,20 +5,20 @@ html {
 }
 
 body {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-size: 1em;
 	display: flex;
 	align-items: center;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
 	justify-content: center;
 }
 
 .container{
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	flex-flow: row wrap;
-	max-width: 1200px;
+	justify-content: center;
 	margin: 0 auto;
+	max-width: 960px;
 	width: 90%;
 }
 
@@ -57,7 +57,7 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 30px 20px 0; 
+	padding: 30px 0px 20px; 
 }
 
 header h1 span {
@@ -89,14 +89,16 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	display: flex;
+	align-items: center;
 	flex-flow: row wrap;
+	justify-content: flex-start;
 	margin: 0 auto;
 	
 }
 
 .main-image {
-
 }
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -127,15 +129,7 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
 
-.section-two h3,
-.section-three h3 {
-	padding: 10px 0;
-}
 
 .menu {
 	list-style: none;
@@ -161,15 +155,61 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
-	
+	display: flex;
+	align-items: center;
 	border-top: 3px solid #eee;
+	justify-content: center;
 	margin: 0 auto;
-	
 	text-align: center;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
+}
+
+/*========== Tablet Styles ==========*/
+
+@media all and (min-width: 768px) {
+
+/* General Base Styles */
+
+.container {
+	flex-basis: 1024px;
+}
+
+header {
+	
+}
+
+.bottom-section {
+
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+}
+
+.section-one {
+
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.section-three { 
+
+}
+}
+
+
+/*========== Deskiop Styles ==========*/
+
+@media all and (min-width: 1200px) { 
+
 }
