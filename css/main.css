@@ -14,9 +14,7 @@ body {
 
 .container{
 	display: flex;
-	align-items: center;
-	flex-flow: row wrap;
-	justify-content: center;
+	flex-flow: column wrap;
 	margin: 0 auto;
 	max-width: 960px;
 	width: 90%;
@@ -48,10 +46,8 @@ p {
 /*The widths are in a percentage!*/
 header {
 	display: flex;
-	align-items: center;
 	border-bottom: 3px solid #77a466;
-	flex-flow: row wrap;
-	justify-content: center;
+	flex-flow: column wrap;
 	margin: 0 auto;
 }
 
@@ -90,9 +86,7 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	display: flex;
-	align-items: center;
 	flex-flow: row wrap;
-	justify-content: flex-start;
 	margin: 0 auto;
 	
 }
@@ -177,34 +171,24 @@ footer span {
 
 /* General Base Styles */
 
-.container {
-	flex-basis: 1024px;
-}
-
-header {
-	
-}
-
 .bottom-section {
-
+	font-size: 1em;
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-}
-
-.section-one {
-
+	border-bottom: 1px solid #eee;
+	flex-basis: 33%;
 }
 
 .section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
 }
-.section-three { 
 
+footer {
+	border-top: none;
 }
 }
 
