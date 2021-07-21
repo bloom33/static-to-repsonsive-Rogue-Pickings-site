@@ -208,7 +208,7 @@ header {
 	display: flex;
 	align-items: center;
 	flex-flow: row wrap;
-	margin: 0 auto;
+	width: 100%;
 }
 
 header h1 {
