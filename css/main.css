@@ -204,4 +204,31 @@ footer {
 
 @media all and (min-width: 1200px) { 
 
+header {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	margin: 0 auto;
+}
+
+header h1 {
+	border-bottom: none;
+	padding-right: 50px;
+	width: 40%;
+	text-align: left;
+}
+
+header nav ul {
+	display: flex;
+	
+}
+
+header nav {
+	width: 40%;
+}
+
+footer h3 { 
+	padding-right: 20px;
+}
+
 }
