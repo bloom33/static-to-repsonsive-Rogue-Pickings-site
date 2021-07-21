@@ -124,8 +124,6 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-
-
 .menu {
 	list-style: none;
 	padding: 0;
@@ -172,7 +170,7 @@ footer span {
 /* General Base Styles */
 
 .bottom-section {
-	font-size: 1em;
+	font-size: .75em;
 }
 
 .section-one,
@@ -185,6 +183,15 @@ footer span {
 .section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
+}
+
+h3 { 
+	padding-left: 10px;
+}
+
+.reviews,
+.address{
+	padding: 0 10px;
 }
 
 footer {
