@@ -64,6 +64,10 @@ header h1 span {
 	color: #77a466;
 }
 
+div .header-divider {
+	border-bottom: 6px solid #77a466;
+}
+
 header nav {
 	padding: 30px 0;
 }
